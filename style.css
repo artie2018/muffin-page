@@ -1,0 +1,187 @@
+#title{
+    background-color: #ff9ccc;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* Nav Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+    
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold; 
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #fff;
+}
+
+/* Buttons */
+
+.download-btn{
+    margin: 1% 2% 1% 0;
+}
+
+/* title image */
+.img-iphone{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Feature-Box */
+
+#features{
+    /* padding: 7% 15%; */
+    position: relative;
+    z-index: 1;
+    background: #fff;
+  
+}
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
+
+.feature-icon{
+    font-size: 4rem;
+    color: #ff9ccc;
+    padding-bottom: 10%;
+}
+
+.feature-icon:hover{
+    color: #ff63af;
+}
+
+.feature-title{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.feature-des{
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background: #ff9ccc;
+}
+
+.testi-text{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.testi-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press{
+    background: #ff9ccc;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px;
+}
+
+/* Pricing */
+
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%; 
+}
+
+.pricing-des{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/* CTA*/
+#cta{
+    background: #ff63af;
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* Footer */
+
+#footer{
+    padding: 2% 0 % 0;
+    text-align: center;
+}
+
+.social-icon{
+    padding: 20px 10px;
+}
+/* Media Queries */
+@media (max-width: 1020px){
+
+    .navbar{
+        padding: 1rem .95rem 2rem 0rem;
+        
+    }
+
+    #title{
+        text-align: center;
+    }
+    .img-iphone{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1020px){
+
+    #title{
+        text-align: center;
+    }
+    .img-iphone{
+        position: static;
+        transform: rotate(0); 
+    }
+}
